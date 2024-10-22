@@ -4,12 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #424242;
+      }
+
+      nav {
+        background-color: white;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 40px;
+        font-size: 1.4rem;
+      }
+
+      .nav-list {
+        display: flex;
+        gap: 10px;
+      }
+
+      li {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+        color: crimson;
+      }
+    </style>
   </head>
+
   <body>
     <nav>
-      <a href="#">home</a>
-      <a href="#">about us</a>
-      <a href="#">projects</a>
+      <div>
+        <a href="">My Portfolio</a>
+      </div>
+      <ul class="nav-list">
+        <li><a href="">Home</a></li>
+        <li><a href="">About us</a></li>
+        <li><a href="">Projects</a></li>
+      </ul>
     </nav>
   </body>
 </html>
